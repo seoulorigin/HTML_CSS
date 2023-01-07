@@ -1,0 +1,46 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 300px;
+}
+
+.blog-left {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.blog-right {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.profile {
+    width: 100%;
+    height: 20%;
+}
+
+.content {
+    width: 100%;
+    height: 70%;
+}
+
+.data {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.profile-img {
+    float: left;
+    width: 10%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+.content-img {
+    width: 100%;
+    height: 100%;
+}
