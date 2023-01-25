@@ -1,61 +1,58 @@
-.container {
+.main-background {
+    padding: 1px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+
+.main-button {
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 350px;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
-    height: 300px;
 }
 
-.blog-left {
-    width: 70%;
-    height: 100%;
-    float: left;
-}
+.main-title {
+    position: relative;
+    top: 130px;
 
-.blog-right {
-    width: 30%;
-    height: 100%;
-    float: left;
-}
-
-.profile {
-    width: 100%;
-    height: 20%;
-}
-
-.content {
-    width: 100%;
-    height: 70%;
-}
-
-.data {
-    float: left;
-    width: 70%;
-    height: 100%;
-}
-
-.profile-img {
-    float: left;
-    width: 10%;
-    height: 100%;
-    border-radius: 100px;
-}
-
-.content-img {
-    width: 100%;
-    height: 100%;
-}
-
-.navbar li {
-    display: inline-block;
-    width: 50px;
     text-align: center;
-    background-color: #eee;
-    padding: 10px;
-    border-radius: 15px;
-
+    color: white;
 }
 
-.navbar a {
-    font-size: 16px;
-    text-decoration: none;
+.main-content {
+    color: white;
+    text-align: center;
+
+    position: relative;
+    top: 170px;
+}
+
+.main-box {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #eee;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-content {
+    font-size: 15px;
+    padding: 55px;
 }
